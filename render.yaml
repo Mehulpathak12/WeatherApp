@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: weather-app
-    buildCommand: mvn clean package
-    startCommand: java -jar target/*.jar
-    envVars:
-      - key: PORT
-        value: 8080
